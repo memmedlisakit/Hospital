@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PatintDBModelStoreContainer" CdmEntityContainer="PatintDBEntities1">
+    <EntitySetMapping Name="Card_Type">
+      <EntityTypeMapping TypeName="PatintDBModel.Card_Type">
+        <MappingFragment StoreEntitySet="Card_Type">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="card_type_name" ColumnName="card_type_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Existing_Account">
+      <EntityTypeMapping TypeName="PatintDBModel.Existing_Account">
+        <MappingFragment StoreEntitySet="Existing_Account">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="existing_account_name" ColumnName="existing_account_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Material_Status">
+      <EntityTypeMapping TypeName="PatintDBModel.Material_Status">
+        <MappingFragment StoreEntitySet="Material_Status">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="materil_name" ColumnName="materil_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Occupations">
+      <EntityTypeMapping TypeName="PatintDBModel.Occupation">
+        <MappingFragment StoreEntitySet="Occupation">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="occupation_name" ColumnName="occupation_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patients">
+      <EntityTypeMapping TypeName="PatintDBModel.Patient">
+        <MappingFragment StoreEntitySet="Patient">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="title_id" ColumnName="title_id" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="middle_name" ColumnName="middle_name" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="gender_type" ColumnName="gender_type" />
+          <ScalarProperty Name="material_id" ColumnName="material_id" />
+          <ScalarProperty Name="date_of_birth" ColumnName="date_of_birth" />
+          <ScalarProperty Name="state_of_origin_id" ColumnName="state_of_origin_id" />
+          <ScalarProperty Name="tribe" ColumnName="tribe" />
+          <ScalarProperty Name="religion_id" ColumnName="religion_id" />
+          <ScalarProperty Name="occupation_id" ColumnName="occupation_id" />
+          <ScalarProperty Name="permanent_adress" ColumnName="permanent_adress" />
+          <ScalarProperty Name="home_adress" ColumnName="home_adress" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+          <ScalarProperty Name="family_id" ColumnName="family_id" />
+          <ScalarProperty Name="old_file_number" ColumnName="old_file_number" />
+          <ScalarProperty Name="card_type_id" ColumnName="card_type_id" />
+          <ScalarProperty Name="patient_category_id" ColumnName="patient_category_id" />
+          <ScalarProperty Name="existing_account_id" ColumnName="existing_account_id" />
+          <ScalarProperty Name="account_number" ColumnName="account_number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patient_Category">
+      <EntityTypeMapping TypeName="PatintDBModel.Patient_Category">
+        <MappingFragment StoreEntitySet="Patient_Category">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="patient_category_name" ColumnName="patient_category_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patient_Family">
+      <EntityTypeMapping TypeName="PatintDBModel.Patient_Family">
+        <MappingFragment StoreEntitySet="Patient_Family">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="full_name" ColumnName="full_name" />
+          <ScalarProperty Name="gender_type" ColumnName="gender_type" />
+          <ScalarProperty Name="state_of_origin_id" ColumnName="state_of_origin_id" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="adress" ColumnName="adress" />
+          <ScalarProperty Name="relitionship_with_patient" ColumnName="relitionship_with_patient" />
+          <ScalarProperty Name="same_as_patient" ColumnName="same_as_patient" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Religions">
+      <EntityTypeMapping TypeName="PatintDBModel.Religion">
+        <MappingFragment StoreEntitySet="Religion">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="religion_name" ColumnName="religion_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="State_of_Origin">
+      <EntityTypeMapping TypeName="PatintDBModel.State_of_Origin">
+        <MappingFragment StoreEntitySet="State_of_Origin">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="state_of_origin_name" ColumnName="state_of_origin_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Titles">
+      <EntityTypeMapping TypeName="PatintDBModel.Title">
+        <MappingFragment StoreEntitySet="Title">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="title_name" ColumnName="title_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

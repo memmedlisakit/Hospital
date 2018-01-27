@@ -1,0 +1,16 @@
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\bin\Debug\Hospital_app.exe.config
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\bin\Debug\Hospital_app.exe
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\bin\Debug\Hospital_app.pdb
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\obj\Debug\Hospital_app.Form1.resources
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\obj\Debug\Hospital_app.Properties.Resources.resources
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\obj\Debug\Hospital_app.csproj.GenerateResource.Cache
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\obj\Debug\Hospital_app.csproj.CoreCompileInputs.cache
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\obj\Debug\Hospital_app.exe
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\obj\Debug\Hospital_app.pdb
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\obj\Debug\Hospital_app.PatientForm.resources
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\bin\Debug\EntityFramework.dll
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\bin\Debug\EntityFramework.xml
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\obj\Debug\Hospital_app.SearchForm.resources
+C:\Users\Sakit\source\repos\Hospital_app\Hospital_app\obj\Debug\Hospital_app.csprojResolveAssemblyReference.cache

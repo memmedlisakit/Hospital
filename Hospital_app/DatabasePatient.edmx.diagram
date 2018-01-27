@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3c719702781d4828aa3e964eaf76e742" Name="Diagram1" ZoomLevel="82">
+        <EntityTypeShape EntityType="PatintDBModel.Card_Type" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatintDBModel.Existing_Account" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatintDBModel.Material_Status" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatintDBModel.Occupation" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatintDBModel.Patient" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatintDBModel.Patient_Category" Width="1.5" PointX="3" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatintDBModel.Patient_Family" Width="1.5" PointX="3" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatintDBModel.Religion" Width="1.5" PointX="3" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatintDBModel.State_of_Origin" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PatintDBModel.Title" Width="1.5" PointX="3" PointY="22.25" IsExpanded="true" />
+        <AssociationConnector Association="PatintDBModel.FK_Patient_Card_Type" ManuallyRouted="false" />
+        <AssociationConnector Association="PatintDBModel.FK_Patient_Existing_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="PatintDBModel.FK_Patient_Material_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="PatintDBModel.FK_Patient_Occupation" ManuallyRouted="false" />
+        <AssociationConnector Association="PatintDBModel.FK_Patient_Patient" ManuallyRouted="false" />
+        <AssociationConnector Association="PatintDBModel.FK_Patient_Patient_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="PatintDBModel.FK_Patient_Patient_Family" ManuallyRouted="false" />
+        <AssociationConnector Association="PatintDBModel.FK_Patient_Religion" ManuallyRouted="false" />
+        <AssociationConnector Association="PatintDBModel.FK_Patient_State_of_Origin" ManuallyRouted="false" />
+        <AssociationConnector Association="PatintDBModel.FK_Patient_Title" ManuallyRouted="false" />
+        <AssociationConnector Association="PatintDBModel.FK_Patient_Family_State_of_Origin" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
